@@ -51,8 +51,6 @@ print("Range of tension_strength:", tension_range)
 # --- Step 6b: Layer-wise % deviation ---
 percent_deviation = 100 * (y_pred_test - y_test.values) / y_test.values
 print(f"Mean % deviation: {percent_deviation.mean():.2f}%")
-print(f"Max % deviation: {percent_deviation.max():.2f}%")
-print(f"Min % deviation: {percent_deviation.min():.2f}%")
 
 # --- Step 10: Feature Importance Visualization ---
 importances = baseline_model.feature_importances_
@@ -70,16 +68,3 @@ plt.ylabel("Feature")
 plt.title("Feature Importance for Tension Strength Prediction")
 plt.gca().invert_yaxis()
 plt.show()
-
-
-import numpy as np
-
-errors = y_pred_test - y_test.values
-abs_errors = np.abs(errors)
-
-print("Prediction Summary:")
-print(f"Mean Error: {errors.mean():.3f}")
-print(f"Mean Absolute Error: {abs_errors.mean():.3f}")
-
-# Select only numeric columns
-numeric_df = combined_df.select_dtypes(include=[np.number])
