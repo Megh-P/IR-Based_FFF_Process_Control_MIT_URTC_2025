@@ -1,2 +1,5 @@
 # IR-Based_FFF_Process_Control_MIT_URTC_2025
+<img width="7200" height="5200" alt="Image" src="https://github.com/user-attachments/assets/cf0398a9-415e-42ab-8da5-08f5ba7bade2" />
+
+
 This work pioneers a closed-loop control framework for Fused Filament Fabrication (FFF) that directly optimizes final mechanical performance, not just geometric fidelity. We uniquely fuse pre-print settings with real-time infrared thermal data to train a high-performance Multi-Input, Multi-Output (MIMO) XGBoost model. This model simultaneously predicts key mechanical properties (tensile strength, elongation) during the print itself. Our framework outperformed traditional Random Forest models in accuracy and robustness. Crucially, we demonstrate its practical viability through a PID control simulation, successfully regulating tensile strength in real-time via nozzle temperature adjustments. This research establishes a new paradigm for adaptive manufacturing, enabling the production of parts with guaranteed mechanical reliability.
