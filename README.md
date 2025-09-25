@@ -1,4 +1,4 @@
-# IR-Based_FFF_Process_Control_MIT_URTC_2025
+# IR-Based_FFF_Process_Control
 <img width="7200" height="5200" alt="Image" src="https://github.com/user-attachments/assets/cf0398a9-415e-42ab-8da5-08f5ba7bade2" />
 
 
